@@ -1,4 +1,5 @@
 #Pipeline output script
+#Code partially based on the code from https://github.com/fiererlab/dada2_fiererlab with modification  by George Cox
 #Takes outputs from pipeline and prepares them for downstream analyses such as phylogeny, community analysis, and pipeline testing.
 #Follows on from the modular DADA2 pipeline (DADA2_pipeline_DATE.R).
 #Doesn't need to be run on a VM as it only takes about a minute to run with all systems going. 
