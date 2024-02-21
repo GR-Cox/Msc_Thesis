@@ -1,5 +1,6 @@
 #DADA2 Pipeline with variable parameters
-#each parameter needs to be defined at the top for easy editing, including pile paths and names.
+#This code is heavily based off the code available from https://benjjneb.github.io/dada2/ and https://github.com/fiererlab/dada2_fiererlab with modification by George Cox
+#each parameter needs to be defined at the top for easy editing, including file paths and names.
 
 #Parameters Block (CHECK DATES AND FILE PATHS)
 #_______________________________________________________________________________
