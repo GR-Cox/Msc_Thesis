@@ -1,0 +1,69 @@
+## Pre set up for Vsearch pipeline by George Cox
+## Only needs to be run once per virtual machine/computer.
+
+##------------------------------------------------------------------------------------------------------
+## How to get a Virtual Machine
+
+#Visit the site below and get in contact
+# https://wiki.canterbury.ac.nz/display/RCC
+#I have had success using a VM running Ubuntu with 16 cores, 64Gb of Ram, and 200 Gb of Storage.
+
+## How to use a virtual machine
+
+# Microsoft Visual Studio Code is a good option to run the terminal from and help write some code.
+# Install Ubuntu on your computer via WSL (Windows Subsystem for Linux) which makes transferring files much easier. 
+
+##------------------------------------------------------------------------------------------------------
+## Installing the Nessecary programs
+
+#Make a folder for your programs
+mkdir programs
+
+#R 
+
+#Conda
+
+#Cutadapt
+
+#Vsearch
+
+#Usearch
+
+#Blast
+
+##------------------------------------------------------------------------------------------------------
+## Setting the path (so that your newly installed programs can be found)
+
+#Shows you the current path
+echo $PATH
+
+#open your bashrc in the text editor nano (This file helps set things up for you when you turn on the VM)
+nano .bashrc
+
+#Paste the below code at the bottom of your bashrc file (Makes permament) and into your terminal (temporary but otherwise will require a restart as the bashrc is only read on start up). 
+export PATH=$PATH:~/programs
+
+
+##------------------------------------------------------------------------------------------------------
+## Create a conda environment with cutadapt activated in it. This will need to be activated for each session where you use cutadapt. 
+
+conda create -n cutenv cutadapt
+
+
+##------------------------------------------------------------------------------------------------------
+## Making a blast database
+
+#Get a database suitable for your project/species of interest (or could make your own if one does not exist). 
+#For 18S microbial eukaryote metabarcoding https://pr2-database.org/ is the reccomended database (Make sure you download the most recent version for the pipeline you will use).
+
+#Transfer the database to your VM and unzip it
+
+rsync /your/pc/database.fasta.gz rccuser@ip.adress:~/data/database/
+cd data/database
+gunzip *.gz
+
+# Run the code below to then set up the database for blast (Makes files so that blastn can find and use the database).
+
+makeblastdb -in YOURFASTAFILE.fasta -dbtype nucl 
+
+
