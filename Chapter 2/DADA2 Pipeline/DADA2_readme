@@ -1,0 +1,11 @@
+This is a alternative pipeline for processing 18S micro-eukaryote data.
+Tutorials for this pipeline can be found at https://benjjneb.github.io/dada2/ or https://github.com/fiererlab/dada2_fiererlab.
+Both tutorials heavily inspired the code presented here.
+
+This pipeline was modified to run multiple different variants at the same time on a virtual machine.
+The default pipeline merges forward and reverse reads, however, this can cause issues with longer read 18S sequences as too few sequences merge.
+The forward only version pipeline discards the merging step to get more reads through the pipeline.
+The N_mash pipeline uses both forward and reverse reads but instead of merging it concatenates the two reads together with a string of Ns, helping more reads to pass the filters. 
+
+When running the pipeline you can run all three pipelines at once and then immediately move into the pipeline formatting
+
