@@ -1,7 +1,7 @@
 ## Usearch/Vsearch Pipeline for 18S General Eukaryote Primers
 
-## This is an alternative to Ian's protocol adapated for 18S work by George Cox.
-## Designed to work on a RCC virtual machine.
+## This is an alternative to Ian Dickie's protocol adapated for 18S micro-eukaryote data by George Cox.
+## Designed to work on a UC RCC virtual machine.
 
 ## If this is quite new to you I highly reccomend reading Pipeline_set_up.txt as it shows you how to set up the virtual machine/computer so that this runs smoothly.
 ## That file also has code for how to set up the blast database and how to create a conda environment. 
