@@ -1,0 +1,512 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=15 NCHAR=2821;
+ FORMAT MISSING=? INTERLEAVE DATATYPE=DNA GAP=-;
+[Name: Tubifera_ferruginosa_KM401876 Len:  2821  Check:    0]
+[Name: Perichaena_sp_KP241122 Len:  2821  Check:    0]
+[Name: Hemitrichia_pardina_ON713362 Len:  2821  Check:    0]
+[Name: Trichia_alpina_ON713364 Len:  2821  Check:    0]
+[Name: Trichia_alpina_JX481312 Len:  2821  Check:    0]
+[Name: Trichia_cf_contorta_KT358720 Len:  2821  Check:    0]
+[Name: GC525            Len:  2821  Check:    0]
+[Name: Metatrichia_vesparium_JX481303 Len:  2821  Check:    0]
+[Name: Perichaena_depressa_JX481307 Len:  2821  Check:    0]
+[Name: Perichaena_luteola_JX481308 Len:  2821  Check:    0]
+[Name: Trichia_varia_KM495056 Len:  2821  Check:    0]
+[Name: Trichia_decipiens_JX481313 Len:  2821  Check:    0]
+[Name: Arcyria_cinerea_JX481281 Len:  2821  Check:    0]
+[Name: Hemitrichia_abietina_JX481293 Len:  2821  Check:    0]
+[Name: Arcyria_denudata_OQ658969 Len:  2821  Check:    0]
+
+MATRIX
+Tubifera_ferruginosa_KM401876 --------------ttcaag a------------------- ---taagccatgcatgccta ggagt---------gtgttg ttattacaaaatctgcgaat
+Perichaena_sp_KP241122 ----------atcctgccag aatcatatgcttgtcccgaa gcttaagccatgcatgtgtc agaacaat------agtagc ttgatctagaatctgcgaac
+Hemitrichia_pardina_ON713362 -------------------- ----atatgcttgtcccgaa gcttaagccatgcatgtgtc agaaca--------agagtc tcgatctcgaatctgcgaac
+Trichia_alpina_ON713364 -------------------- ----atatgcttgtcccgaa gcttaagccatgcatgtctc cgaataac------tagtag ctgatcccgaatctgcgaac
+Trichia_alpina_JX481312 aacctggttgatcctgccag aaccatatgcttgtcccgaa gcttaagccatgcatgtctc cgaataac------tagtag ctgatcccgaatctgcgaac
+Trichia_cf_contorta_KT358720 -------------------- --tcatatgcttgtcccgaa gcttaagccatgcatgtctc cgaacgat------agtagc ttgatctagaatctgcgaac
+GC525                -------------------- -------------------- -------------------- -------------------- ---------aatctgcgaac
+Metatrichia_vesparium_JX481303 --------------tgccag aaccatatgcttgtcccgaa gcttaagccatgcatgtgcc ggaataatgaagcaaagaac gcatctcagaatctgcgaac
+Perichaena_depressa_JX481307 -------------------- -------------------- -------------------- -------------------- ---------------cgaac
+Perichaena_luteola_JX481308 aacctggttgatcctgccag aatcatatgcttgttccaaa gcttaagccatgcatgtcta agaacagtg---------at actctcacgaatctgcgaac
+Trichia_varia_KM495056 -------------------- -------------------- --------catgcatgtctt agaagtataat---aggagg cgatccataaatctgcgaac
+Trichia_decipiens_JX481313 -------------------- -------------------- -------------------- -------------------- -------------------c
+Arcyria_cinerea_JX481281 -------------------- -------------------- -------------------- -------------------- -----------------aac
+Hemitrichia_abietina_JX481293 -------------------- -------------------- -------------------- -------------------- --------------------
+Arcyria_denudata_OQ658969 -------------------- ------atgcttgtcccaaa gattaagccatgcatgc--- -gaaagacaattcgacgaga ctctcacaaaatctgcgaac
+
+Tubifera_ferruginosa_KM401876 ggctccgtatacctgttatt atccatggtgcccacccact tcgtgcgcggataatgctgg aaaccctaacaataatacgt tcttctggacacattgttgt
+Perichaena_sp_KP241122 ggctccgtatatctgttata acctaccgcc---------- ---------------aacca tcagc--------------- --------------------
+Hemitrichia_pardina_ON713362 ggctccgtatatctgttata atccgccgcc---------- ---------------tccta tagtc--------------- --------------------
+Trichia_alpina_ON713364 ggctccgtatatctgttgta acccgccgcc---------- ---------------gccaa gtaca--------------- --------------------
+Trichia_alpina_JX481312 ggctccgtatatctgttgta acccgccgcc---------- ---------------gccca gtaaa--------------- --------------------
+Trichia_cf_contorta_KT358720 ggctccgtatatctgttata acttaccgcc---------- ---------------tccca atccg--------------- --------------------
+GC525                ggctccgtatatctgttata acctaccgcc---------- ---------------gctca aaccc--------------- --------------------
+Metatrichia_vesparium_JX481303 ggctccgtatatctgttaac acccaccgccc--------- ------------aacaccga gggta--------------- --------------------
+Perichaena_depressa_JX481307 ggctccgtatatctgttgtc acccgccatc---------- ---------------atccg cccggtagacg--------- --------------------
+Perichaena_luteola_JX481308 ggctccgtatatctgttgcc acccgtctcc---------- ---------------atccg tccgggggatg--------- --------------------
+Trichia_varia_KM495056 ggctccgtatatctgttatc acccacggcc---------- ---------------actaa aaaga--------------- --------------------
+Trichia_decipiens_JX481313 ggctccgtatatctgttatc acctacagcc---------- -----------------cgg ggggc--------------- --------------------
+Arcyria_cinerea_JX481281 ggctccgtatatctgttatc accaattgcc---------- ---------------cttgt taagc--------------- --------------------
+Hemitrichia_abietina_JX481293 -------------------- -------------------- -------------------- -------------------- --------------------
+Arcyria_denudata_OQ658969 ggctccgtatatctgttaaa acccgttgcc---------- ---------------cgttg gaaag--------------- --------------------
+
+Tubifera_ferruginosa_KM401876 tcgaccacttgcttaagctc gaatggaacgcacctctcgc aggtgcttcctttcaacagg ggtttgctcgtggtcactgg ggctcctgcttttccggcat
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_ON713364 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_JX481312 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_depressa_JX481307 -------------------- -------------------- -------------------- -------------------- ------------ccaatacc
+Perichaena_luteola_JX481308 -------------------- -------------------- -------------------- -------------------- ------------cttatacc
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 -------------------- -------------------- -------------------- -------------------- --------------------
+Arcyria_cinerea_JX481281 -------------------- -------------------- -------------------- -------------------- -------------ctagcat
+Hemitrichia_abietina_JX481293 -------------------- -------------------- -------------------- -------------------- --------------------
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 accgacccggggtcaaaaag agtggctgcgctaagtcgtg ctcctttgtctcccaagcat ctgggcaacatgtaggcgca tgcctcagctgattcatcag
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------accggca taaccacggtaattctgtgg
+Hemitrichia_pardina_ON713362 -------------------- -------------------- -------------------- ------------aagcggca taaccacggtaattctgtgg
+Trichia_alpina_ON713364 -------------------- -------------------- -------------------- -------------agcggca taaccacggtaattctgtgg
+Trichia_alpina_JX481312 -------------------- -------------------- -------------------- -------------agcggca taaccacggtaattctgtgg
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------agcggca taaccacggtaattctgtgg
+GC525                -------------------- -------------------- -------------------- -------------aacggca taaccacggtaattctgtgg
+Metatrichia_vesparium_JX481303 -------------------- -------------------- -------------------- -------------tgctgga tacccacggtaattctgtgg
+Perichaena_depressa_JX481307 taccg--------------- -------------------- -------------------- ------------gcagcgga taacctcggtaattctgtgg
+Perichaena_luteola_JX481308 ccccg--------------- -------------------- -------------------- ------------gcaacgga taacctcggtaattctgtgg
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------tctcgga tacccacggtaattctgagg
+Trichia_decipiens_JX481313 -------------------- -------------------- -------------------- -------------gcctgga taacccaggcaatcctcggg
+Arcyria_cinerea_JX481281 accgg--------------- -------------------- -------------------- -----------ccagcggat atggcacggtaattctgtca
+Hemitrichia_abietina_JX481293 -------------------- -------------------- -------------------- ------------ccagcgga taaccacggtaattctgtgg
+Arcyria_denudata_OQ658969 gttgg--------------- -------------------- -------------------- -----------taagcggat atcgctcggcaattctgtca
+
+Tubifera_ferruginosa_KM401876 cgaagggctgtgcttat--- -------------------c cag--gtgcgagggaaccaa gacga----------agaaa cgggcacgatgtagctcact
+Perichaena_sp_KP241122 ctaatacgtgtaaat----- -------------------- --------gaggggcgccaa gcgcg--------agtgcgg cgcccctggtcttgtcg---
+Hemitrichia_pardina_ON713362 ctaatacgtgtaactc---- -------------------- -------ctggggctgctga gcgca--------agcgagg cggcctcggtcttcccga--
+Trichia_alpina_ON713364 ctaatacgtgtaacc----- -------------------- --------aggggtcggccc ctc----------aaggggg caggctcggtcttgccg---
+Trichia_alpina_JX481312 ctaatacgtgtaacc----- -------------------- --------aggggtcggccc cgc-----------aagggg caggctcggtcttgccg---
+Trichia_cf_contorta_KT358720 ctaatacgtgtactac---- -------------------- -------ggcggccgccctc ccgga-------agggggga cggccccggtcttgccg---
+GC525                ctaatacgtgtactac---- -------------------- -------gggccgcccccgg gcgca--------agcctgg gggccccggtcttgccg---
+Metatrichia_vesparium_JX481303 ctaatacgtgtgaacca--- -------------------- -----cctagggcccgctag gcgcaagccgagtgggtgat ggacctaggtgaagccg---
+Perichaena_depressa_JX481307 ctaatacgtgtatgaa---- -------------------- -------agggggcctcc-- gcgcg--------a-gcggt ggtccccggccttgccgc--
+Perichaena_luteola_JX481308 ctaatacgtgtctgaa---- -------------------- -------cgggggccggc-- tccta--------gcgggcc ggtcctcgggcttgccgc--
+Trichia_varia_KM495056 ctaatacgtatacgtag--- ----------cttgggcctc ca----ggacagggcaccct ccgca----------agggg ggcgcctgggctagtcg---
+Trichia_decipiens_JX481313 ctaatacatgtttgtgt--- -----------------att ca----tctggggcaatctg cttgg----------ttggg ttctccgaccctagttgctc
+Arcyria_cinerea_JX481281 gtaatacgttcagcgtgggg tgcttcatcgctcccacagc tagcatatggtgtgggtccg ttccttcgtca-acggccag ggctcctcagccaaccccac
+Hemitrichia_abietina_JX481293 ctaatacgtgcaaccc---- -------------------- ---------ggccccgctcg atccgctgc---tttagagg cgggcgagggccggccac--
+Arcyria_denudata_OQ658969 gtaatacgtgtacgtgc--- -------------------- ----------atcgtgtcca acattcagc---ttgaccgt ggcccgctggcccgctgtag
+
+Tubifera_ferruginosa_KM401876 ctttcct----ggtgctcga ccaacg-------------- ----catgatttgg------ ----------------gtgg gaga--gctttcctcgatgg
+Perichaena_sp_KP241122 ---------------ctcga ccgacg-------------- ----gcgggtaaaa------ --ccgctagcgtgattgctg acaa--ggggacctgaccgc
+Hemitrichia_pardina_ON713362 ---------------ttcaa ccaacg-------------- ----gcgggtcaaa------ --ccgtctgcgtgagagcgg gcaa--gggtccctgaccgc
+Trichia_alpina_ON713364 ---------------ttcga ccaacg-------------- ----ggggggcaac------ --cccctcgcgtgagagctg gcaa--gcgcaccttaccgc
+Trichia_alpina_JX481312 ---------------ttcga ccaacg-------------- ----ggggggcaac------ --cccctggcgcgagagctg gcaa--gcgcaccttaccgc
+Trichia_cf_contorta_KT358720 ---------------gtcag ccaacgtc------------ ----gggggtcaaa------ ccccggtagcgcgagtgctg gcaa--gggtacctgaccgt
+GC525                ---------------gtcga ccaacg-------------- ----gcgggtaaaa------ --ccgctcgcgtgagagctg gcaa--gggtacctgaccgc
+Metatrichia_vesparium_JX481303 ---------------ctcaa ccaacg-------------- ----gcggggccccccgggg ccctgttggcgggagtgccg gctatccgcacctggaccgc
+Perichaena_depressa_JX481307 ---------------tgata aatgcg-------------- ----ccgg-cttaaccg--- -ccgatccgcgtga-tgcag gcaa--gtgtccctgccggt
+Perichaena_luteola_JX481308 ---------------accca aatacg-------------- ----tcggaatttattc--- -ctgtggtgcgtga-tgcgg gcaa--gtccccctaccggc
+Trichia_varia_KM495056 ----------------cttg ttgccg-------------- ----gggggtcccgcaaggg gtccgctgtcatgatggcag gcta--gtgcaccacactgc
+Trichia_decipiens_JX481313 c----------gggcttgcc ctcacatccgacggccttcc gccctttgggcggg------ --aggatggcgggaagggcg gcaa--gtgacccacaccg-
+Arcyria_cinerea_JX481281 cattacttcaatgctatggc tttgcactgtga--tcagcg acttcagggactgg------ ---ggggtttatgattgcgt gcaa--atgtgccgaaccct
+Hemitrichia_abietina_JX481293 ---------------ctggg ctgccaccaacggccctccc actggggggggcta------ -------agcgtgaatgctc gggt--ggggtcctgaccgg
+Arcyria_denudata_OQ658969 c-----------aggatgga cggactccggaacgcccagc tctaccaagagtta------ ---------ggaaaccgccg agaa--gtgccccaagccct
+
+Tubifera_ferruginosa_KM401876 aggcatgac----------- ---caatgccctccaccatc acgttgaatttcagtcctat caactggatggtcgggcatt ggccgaccatggtcttaacg
+Perichaena_sp_KP241122 ggcact-ag----------- ---------ccgtggcatgt gcgatggatatcagacctat caactagatgcccaggtata gcctgggcatggttataacg
+Hemitrichia_pardina_ON713362 agcact-ag----------- ---------ctgcggcgtga gcgacgagcatcagacctat caactagatgcccaggtatc gcctgggcatggttataacg
+Trichia_alpina_ON713364 aacct---g----------- ---------ttgtggagcgt gtgacgggcttcagacctat caactagatgcccagggatg gcctgggcatggtttcaacg
+Trichia_alpina_JX481312 aacct--ag----------- ---------ttgtggagcgt gcgacgggcttcagacctat caactagatgcccagggatg gcctgggcatggtttcaacg
+Trichia_cf_contorta_KT358720 ggctttcag----------- ---------ccatggcgcgt gcgatgagcaccagacctat caactagatggccgggtatt gcccggccatggttataacg
+GC525                ggcact-ag----------- ---------ctgcggcacga gcggtgggtatcagacctat caactagatgtccgggcatt gtccggacatggtgataacg
+Metatrichia_vesparium_JX481303 agggcttggaaaggtaagta ttttggttcctgcggccggt gcgatgggcgccagacctat caactagatgcccagagaac gcctgggcagggtgataacg
+Perichaena_depressa_JX481307 ccctcgtg------------ ---------ggccggagtgc atgacgggcttcagacctat caactagacggccggggata gcccggccgtggtgacgacg
+Perichaena_luteola_JX481308 cgattacac----------- ---------ggccggcgtgg caggcggacttcagacctat caacttgtcggccggggatg gcccggccgtggtggcgacg
+Trichia_varia_KM495056 gggggc-ga----------- ---tatgtcccgtagggtgc gccaagggagccagccctat taactaggtgtccgggtaag gcccggccgcggtgataacg
+Trichia_decipiens_JX481313 -------------------- ---gccttaagccggggtgg gtcatggataccagacctat caacctcagcgccggggcga gccccacgctggtgataacg
+Arcyria_cinerea_JX481281 gggg---------------- -------------gggggag gcattgggtatcagacctat caactcggaggctgggtaag tgccagcctcggtgataacg
+Hemitrichia_abietina_JX481293 tccaataac----------- --------ctaccggctcag gagatgggtttctgacctat caacttgaagatacgggccg gacaggccttggtgataacg
+Arcyria_denudata_OQ658969 atgggaacc----------- ---------------tggag gcaacggttttcagacctat caacttgaagcctgtggaga ggacaggcctggttttaacg
+
+Tubifera_ferruginosa_KM401876 ggtgcagaggattagggttt gatcctggagaggtagcctg agaaatagctcccacttcca tggaaggcagcaggcgcgca acgttcccaatggttt----
+Perichaena_sp_KP241122 ggtacagaggatcagggttc ggtcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+Hemitrichia_pardina_ON713362 ggtacagaggattagggttc ggtcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+Trichia_alpina_ON713364 ggtacagaggatcagggttc ggtcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+Trichia_alpina_JX481312 ggtacagaggatcagggttc ggtcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+Trichia_cf_contorta_KT358720 ggtacagaggatcagggttc gatcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+GC525                ggtacagaggatcagggttc ggtcctggagagtgggcctg -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 ggtacagaggatcagggttc gatcctggagaggaagcctt agagatcgcttctacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+Perichaena_depressa_JX481307 ggtacagaggatcagggttc gatcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+Perichaena_luteola_JX481308 ggtacagaggatcagggttc gatcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+Trichia_varia_KM495056 ggtacagaggatcagggttc ggtcctggagaggaagcctg agagatcgcttctacttcta aggaaggcagcaggcgcgca acgttcccaatgggg-----
+Trichia_decipiens_JX481313 ggtacagaggatcagggttc ggtcctggagaggtagcctt agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccactgggt-----
+Arcyria_cinerea_JX481281 ggtacagaggatcagggttc ggtcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatggggtg---
+Hemitrichia_abietina_JX481293 ggtacagaggatcagggttc gatcctggagaggtagcctg agagatcgctaccacttcta aggaaggcagcaggcgcgca acgttcccaatggggg----
+Arcyria_denudata_OQ658969 ggtacagaggatcagggttc ggtcctggagaggtagcctg agagatcgctactacttcta aggaaggcagcaggcgcgca acgttcccaatgggggcata
+
+Tubifera_ferruginosa_KM401876 -acggaccgaggacgttaag ggacatagcaatactttgct t-ata---gtaaagcaattg aaatgggggagatccaaatc aaccaccgagtaacaattag
+Perichaena_sp_KP241122 -gcaccctgaggacgtgaag ggacatatcaatgcccggcc c-tta-aagccgggcaattg aaatgggggacttttaaacc ccacaccgagtaacaatta-
+Hemitrichia_pardina_ON713362 -gcaccctgaggacgtgaag ggatatatcaatgcctggtc t-tta-aagccgggcaattg aaatgggggacttctaaacc ccacaccgagtaacaattgg
+Trichia_alpina_ON713364 -ataccctgaggacgtgaag ggacataccaatgcccggcc c-ata-aagccgggcaattg gaatgggggacctttaaacc ccacaccgagtaacaattgg
+Trichia_alpina_JX481312 -ataccctgaggacgtgaag ggacataccaatgcccggcc c-ata-aagccgggcaattg gaatgggggacctttaaacc ccacaccgagtaacaattgg
+Trichia_cf_contorta_KT358720 -ataccctgaggacgtgaag ggacataccaatgcccggcc t-tta-aagccgagcaattg gaatgggggacctttaaacc ccacaccgagtaacaattgg
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 -atcccctgaggacgtgagg ggacataccgatgcccggcc t--ta-aagccgggcaattg gaatgggggtccgccaaacc ccgcaccgagtaacaattgg
+Perichaena_depressa_JX481307 -gcaccctgaggacgtgacg ggacataccaatgcctcgcc c-ata-aagcggggcaattg gaatgggggatgaccaaacc ctccaccgagtaacaattgg
+Perichaena_luteola_JX481308 -ataccctgaggacgtgacg ggacatatcaatgccctgcc c-ata-aagcggggcaattg gaatgggggcagtccaaacc tatcaccgagtaacaattgg
+Trichia_varia_KM495056 -ataccctgaggacgtgagg ggatatagcaatgccccgcc c-ata-aagcggggcaattg caatgggggtccactaaacc ctccaccgagtaacaattgg
+Trichia_decipiens_JX481313 -acgccctgaggacgtgagg gggcataccaatgcggcacc c-taataagtgtcgcaattg gcatgggggtggcttagata cactaccgagcatcgattgg
+Arcyria_cinerea_JX481281 ctacccctgaggacgtgaag ggacataacaatgccccccc tcataaagggggggtaattg caatgggggcgtcacaaacc tcccaccgagtaacaattgg
+Hemitrichia_abietina_JX481293 -ctcccctgaggacgtgacg gggcatagcaatacgccgcc c-acaagggcggggtaattg aaatgggggcattttaaatc cctcaccgagtagcaattgg
+Arcyria_denudata_OQ658969 ggccccctgaggacgtgacg ggacataccaatgccccgcc c-gaagggctggggtaatcg gaatggggggaatctaaacc ccacgac-------------
+
+Tubifera_ferruginosa_KM401876 aggaca-------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcatcttgttaagtt gttgcagttaaaacgctcgt agtccaaggcggtgcgccct
+Trichia_alpina_ON713364 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcatctaattaagtt gttgcagttaaaacgctcgt agttcaagccggtgcgcccc
+Trichia_alpina_JX481312 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcatctagttaagtt gttgcagttaaaacgctcgt agttcaagccggtgcgcccc
+Trichia_cf_contorta_KT358720 ag------------------ -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcatcttattaagtt gttgcagttaaaacgctcgt agctacacttggcgcgcccg
+Perichaena_depressa_JX481307 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcatctagttaagtt gttgcagttaaaacgctcgt agttcaagctggtgcgcccg
+Perichaena_luteola_JX481308 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcatctagttaagtt gttgcagttaaaacgctcgt agttcaagccggtgcgcttg
+Trichia_varia_KM495056 ag------------------ -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcttcttgttgagtt gctgcagttaaaacgctcgt agtcacagtcggggggtggt
+Arcyria_cinerea_JX481281 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcatctatttaagtt gttgcagttaaaacgctcgt agtcagagcagggcgtgtct
+Hemitrichia_abietina_JX481293 aggacaagtctggtgccagc acccgcggtaattccagctc caatagcatcttattaagtt gttgcagttaaaacgctcgt agtccgagtcggtggcgtgc
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 ctgcgcttccagtaccgcgg t---------------gcac cctagg--cccccttaac-- -------------cgggcgc ggctctgggacccgtgggac
+Trichia_alpina_ON713364 ggccgcccccagtaccgctg ------------------gt cctggg--gccccgccgc-- -------------aaggtgt gggtccctgccggtcgggac
+Trichia_alpina_JX481312 ggctgcccccagtaccgctg ------------------gc cttggg--gccctgccgc-- -------------aaggcgt gggcccctgtcggtcgggag
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 ccgtccctctagtactgcgg g---------------ctct cctgga--gccccctgcccc acaggggg-----cagggct gcctctgggccccgtgggac
+Perichaena_depressa_JX481307 ctgcccgccgagtagcgggc ------------------gg ctggggccgtcctc------ -------------cgggatc gacctcgccgctcgccaaag
+Perichaena_luteola_JX481308 ccacccgcccagtagccggc ------------------cg catggg--gacctc------ -------------cgggtc- --gccggcagccggccaaag
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 gggtgggcaagtaggcgcgg g---------------ggtt catacg--gggaattgcctt gca-aaggacctctgccaat gccccggccttcgggctggg
+Arcyria_cinerea_JX481281 accccctgaaagtaccccac gcgatttacatagtcgcgtg caagcg--aaattggggttt ggttcaagggcattgcctat ggttcccccccccg------
+Hemitrichia_abietina_JX481293 tggacgggcagtagctgggg g---------------ggtc cgggcc--ggtaccagtccc atttgaggggctcggtggct gtgcctcccccccg------
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 agtc--gatcggaggccact attgcgcgg----------- --gggggaaccgg------- -------------------- ------gcgggcggggcttc
+Trichia_alpina_ON713364 aggg--gtggctgggccact actacgcgg----------- --ggggaaccg--------- -------------------- ------gcccccggggcttc
+Trichia_alpina_JX481312 aggg--gtggctgggccact actacgcgg----------- --ggggacccg--------- -------------------- ------gctcccggggcttc
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 cgtt--ggacggcagcgcgc taaacatgt----------- --gggggaccagggc----- -------------------- ------gtgcccggcgcttc
+Perichaena_depressa_JX481307 gcgg--gtccggcgggccac catatttgg----------- --cggagttccaaacg---- -------------------- ------gatcccggcccttc
+Perichaena_luteola_JX481308 gcgg--ggtcggtgggccac catatgttgc---------- -ccgagtaacaaagcg---- -------------------- ------gcgtccggtccttt
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 gcggaggttttaaagtctgc gccgggtggtactcgtc--- cccgaggcaagaaaccctgt tcacgcctcccgattcgccc ggggataggggccgggcttc
+Arcyria_cinerea_JX481281 -------------------- -------------------- -------------------- -------------------- ------gcgcctggaccctg
+Hemitrichia_abietina_JX481293 -----------gtggccccc gcttggcgcccatcggctag cccggggcaggcaatcccgt ctggaagccgc--------- -----gggcggcggggcttc
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 agtgcaccgc---ccgccta ccctctgcacttccctttga acaaacgtgagcgctcgaag caggcc-----------gt- tgggcccttgaaacccgcag
+Trichia_alpina_ON713364 agtgctccggg----ggttg ccctccgcacgctactctga ataaatgtgagcgctccaag caggcc-----------at- ctggcccttataacccgcag
+Trichia_alpina_JX481312 agtgctccggg----ggctg cccttcgcacgctactctga ataaatgtgagcgctccaag caggcc-----------at- ctggcccttataacccgcag
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 agtgtgccgg-----ccgcc ccccccgctctttactttga acaaatgtaggtgctccagg caggccgatctaa---ggt- acggcccctgaaactcgcag
+Perichaena_depressa_JX481307 ggtgggcttg---gtacccg tctccgccgattcactttga gtaaatgtaagcgcccaaag caggtct----------at- acgaccatcgcaacccgcag
+Perichaena_luteola_JX481308 agtggcccaggacgattccg cctcgggcggttcactttga gtaaatgtacgtgcccaaaa caggcct----------atg atggccattgaaacccgcag
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 agtgcctagtg--cacccct ccccgggcaccatactttga ataaatttgagcgcttgacg caggct-----------ata aacggccctgaaaaccctag
+Arcyria_cinerea_JX481281 tgccggctgggg-------- --tgtgggacttttccttga ggaaatgtgagcgctcaacg cacccc-----------ac- acggggtatgtaacctgcag
+Hemitrichia_abietina_JX481293 agtgccccg----ctgctca ccccgggcacctttctttga ataaattcgagcgcccaagg caggccgattacggccgctt atatatactgaaggctgcag
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 caaagaatgatcgaacaggg accttccctgcgt--cgttg gt-acaggtcgggttaatga tctattggggcgatcggggc gagccacacggctggggtag
+Trichia_alpina_ON713364 caaagaataatggaacaggg actcccctggtc---cgttg gt-taaggt-gggtcgatga tagataggggggatcggggc aggccacatggcgggggtag
+Trichia_alpina_JX481312 caaagaataatggaacaggg actcccctggtc---cgttg gt-taaggt-gggtcgatga tcgataggggggatcggggc gggccacatggcgggggtag
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 caaagaataatgaaacaggc acccggcctcggc--cgctg gt-aaggcc-cggtgaatga tctcctggggcgatcggggt gggccacatggcgggggtag
+Perichaena_depressa_JX481307 caaagaatgatgatacgggt ccccctggtttgcg-tgaag cg-atgggg-ggccaatcgg tcgataggttggatcggggt gggccacatggcgggggtag
+Perichaena_luteola_JX481308 caaagaatgataatacgggc gccccttgtttgcgatattt tt-gggggg-tgccaattgg tagacaggttggatcggggt gagtcacatggcgggggtag
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 caaagaatatcggaacaggg atctccctggctc--cgttg gt-actagggggattaatga ttaataggggggatcggggt tggccacatggcgggggtag
+Arcyria_cinerea_JX481281 caaggaataatacagcaggc tcacgccggcttg--tgttg gtcagccagcaggagaatgg tcaataggggcgatcggggt cagccacacgtggggggtag
+Hemitrichia_abietina_JX481293 caaaggataacggaacaggg cgtcagcccggtct-cgttg gt-accgagcagcgcaatga ttaattggggggatcggggt cggccgcatggcgggggtag
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 gggtgaaatccgttgatccc agcctggtgaactaaagcga aagcagctcgcaagtacgct ttcttagatcaagaacgaaa gtctggggatcgaagatgat
+Trichia_alpina_ON713364 gggtgaaatccgttgatcct cgccaggtgaactagagcga aggcagcctgcaagtaccca tcctttgatcaagaacgaaa gtctggggatcgaagatgat
+Trichia_alpina_JX481312 gggtgaaatccgttgatcct cgccaggtgaactagagcga aagcagcccgcaagtaccca tcctttgatcaagaacgaaa gtctggggatcgaagatgat
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 gggtgaaatccgttgatcct cgccaggtgaactagcgcga aagcagcccacaagtacgcc ccctcaggtcaagaacgaaa gtctggggatcgaagatgat
+Perichaena_depressa_JX481307 gggtgaaatccgttgatcct cgccaggtgaactaacgcga aagcagcccacaagtacctc tctgttgatcaagaacgaaa gtctggggatcgaagatgat
+Perichaena_luteola_JX481308 gggtgaaatccgttgatcct cgccagatgaactaacgcga aggcagctcacaagtacctt ccctttgatcaagaacgaaa gtccggggatcgaagatgat
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 gggtgaaatccgttgatcct cgccaggtgaactaaagcga aagcagcctaccagtaccct ttctttgatcaagaacgaaa gtctggggatcgaagatgat
+Arcyria_cinerea_JX481281 gggtgaaatccgttgatcct ccatgggtgaacaagagcga aagcagctgacaagtacgct ttctttgatcaagaacgaaa gtctggggatcgaagatgat
+Hemitrichia_abietina_JX481293 gggtgaaatccgttgatcct cgccaggcgaactaaagcga aagcagccgacaagtaccct ttctttgatcaagaacgaaa gtctggggatcgaagatgat
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 cagataccatcgtagtccag accctaaatcatgccggcca tggatgggctctcgtccatc ccgacccagcccgcacttta caggaaacta-taagcgttt
+Trichia_alpina_ON713364 cagataccatcgtagtccag accctaaatcatgccggcca tggatgggcgctcgtccatc ccgaccctgcccgcaccttg tgggaaacca-taagcgttt
+Trichia_alpina_JX481312 cagataccatcgtagtccag accctaaatcatgccggcca tggatgggcgctcgtccatc ccgaccctgcccgcaccttg tgggaaacca-taagcgttt
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 cagataccatcgtagtccag accctaaacgatgccgacca tggatgggccctcgtccatc ccgacccgacccggaccttg agggaaacca-cgagtgtct
+Perichaena_depressa_JX481307 tagataccatcgtagtccag accctaaacgatgccggcca tggatgggcccgcgtccatc ccgacccagcccgaaccttg tgggaaacca-taagcgttt
+Perichaena_luteola_JX481308 tagataccatcgtagtccgg accctaaattctgccaacca cggatgggcgtgcgtccatc ccgaccgggcccggaccttg tgagaaatca-taagtgttt
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 cagataccatcgtagtccag accctaaatgctgccgatca cggacgggcaactgtccact ccgaccaggcccgaacttcg cgggaaacca-agaatgtct
+Arcyria_cinerea_JX481281 cagataccatcgtagtccag accctaaatgctgccaacca tggatgggctagcgtccatc ccgacccgccccgcacatta gagaaatc---aaagtgtat
+Hemitrichia_abietina_JX481293 cagataccatcgtagtccag accctaaatgatgccgacca tggatgggtgtcagtccatc ccgacccggcccggaccttg tgggaaaccatcaagtgctt
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 gggctccggggggagtatgg tcgcaagactgaaacttaaa ggaattgacggaagagcaca caaggagtggagcctgcggc t-------------------
+Trichia_alpina_ON713364 gggctccggggggagtatgg tcgcaagactgaaacttaaa ggaattgacggaagagcaca caaggagtggagcctgcggc t-------------------
+Trichia_alpina_JX481312 gggctccggggggagtatgg tcgcaagactgaaacttaaa ggaattgacggaagagcaca caaggagtggagcctgcggc t-------------------
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 gggctccggggggagtatgg tcgcaagactgaaacttaaa ggaattgacggaagagcaca caaggagtggagcctgcggc t-------------------
+Perichaena_depressa_JX481307 gggctccggggggagtatgg tcgcaagactgaaacttaaa ggaattgacggaagagcaca caaggagtggagcctgcggc t-------------------
+Perichaena_luteola_JX481308 gggctccggggggagtatgg tcgcaagactgaaacttaaa ggaattgacggaagagcaca caaggagtggagcctgcggc t-------------------
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 gggctctggggggagtacgg tcgcaagactgaaacttaaa ggaattgacggaacagcaca caaggagtggagcctgcggc t-------------------
+Arcyria_cinerea_JX481281 gggctccggggggagtatgg ttgcaagactgaaacttaaa ggaattgacggaagagcaca caaggagtggagcctgcggc t-------------------
+Hemitrichia_abietina_JX481293 gggctccggggggagtatgg tcgcaagactgaaacttaaa ggaattgacggaagagcaca caaggagtggagcctgcggc ttaactttaggccgcccaac
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_ON713364 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_JX481312 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_depressa_JX481307 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_luteola_JX481308 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 -------------------- -------------------- -------------------- -------------------- --------------------
+Arcyria_cinerea_JX481281 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_abietina_JX481293 ccacagacgaacgttctcac tacctgggcgttcgtctgtg gcgagtcaagcacccatgaa gggatgagtgggtcgctggc aagacaacctggaacggtgg
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_ON713364 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_JX481312 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_depressa_JX481307 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_luteola_JX481308 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 -------------------- -------------------- -------------------- -------------------- --------------------
+Arcyria_cinerea_JX481281 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_abietina_JX481293 aaccctctgctcgatgacgc tctgggattggctcctgggc aacagaatgagggcaatacc gtggtgagtagccctaaggg tacctttagggctgccatcg
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_ON713364 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_JX481312 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_depressa_JX481307 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_luteola_JX481308 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 -------------------- -------------------- -------------------- -------------------- --------------------
+Arcyria_cinerea_JX481281 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_abietina_JX481293 taacgcgcgctaaggtgtcg gtgggctgggcttacaccca gcctgcttaaggtacgtgct actccccccgtaagggtgca tcacactggagctctcatcc
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 -------------------- -------------------- -------------------- -------------------- --------------taattt
+Trichia_alpina_ON713364 -------------------- -------------------- -------------------- -------------------- --------------taattt
+Trichia_alpina_JX481312 -------------------- -------------------- -------------------- -------------------- --------------taattt
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 -------------------- -------------------- -------------------- -------------------- --------------taattt
+Perichaena_depressa_JX481307 -------------------- -------------------- -------------------- -------------------- --------------taattt
+Perichaena_luteola_JX481308 -------------------- -------------------- -------------------- -------------------- --------------taattt
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 -------------------- -------------------- -------------------- -------------------- --------------taattt
+Arcyria_cinerea_JX481281 -------------------- -------------------- -------------------- -------------------- --------------taattt
+Hemitrichia_abietina_JX481293 agtaaaggtgtggtgagccg atgatgctggtcaaaaatgg ccagaggaggctggtacagc cctgcacagcccgcgagggc agcagggctacaggtaattt
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 gactcaacacggggaaactc actagggcaagagtagtcta ggatggacagcctatcaggg ctttcctgattattacagtg gtggtgcatggtcgttctta
+Trichia_alpina_ON713364 gactcaacacggggaaactc actagggcaagaggggggta ggatcgacagcctatcaggg ctttcctgattcctccagtg gtggtgcatggtcgttctta
+Trichia_alpina_JX481312 gactcaacacggggaaactc actagggcaagaggggggta ggatcgacagcctatcaggg ctttcctgattcctccagtg gtggtgcatggtcgttctta
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 gactcaacacggggaaactc actagggccagagggggtca ggacggacggccaagcaggg ccttctcgattcccccagtg gtggtgcatggtcgttctta
+Perichaena_depressa_JX481307 gactcaacacgggaaaactc acaagggcaagaggggggta tgatggtcagcgtatcagcg ctttcctgattcctccagtg gtggtgcatggtcgttctta
+Perichaena_luteola_JX481308 gactcaacacggggaaactc acaagggcaagaggggggta ggatggtcagcttatcagag cttacctgattcccccagtg gtggtgcatggtcgttctta
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 gactcaacacggggaaactt accagggcaagaagggggga ggatggtccgtcgatcaggg cgtacttgattcccctagtg gtggtgcatggtcgttctta
+Arcyria_cinerea_JX481281 gactcaacacgggaaaactc actagagcaagagaggggta tgatggccggctcgaagagc ctgttaagattccctcagcg gtggtgcatggtcgttctta
+Hemitrichia_abietina_JX481293 gactcaacacggggaaactt accagggcaagaaaggctta ggatggacagccaatcaggg ctttccagatcgttttagtg gtggtgcatggtcgttctta
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 gttcgtggactgatttgtct ggtctattccgctaacgagc gagaacctaccctctcgtgg ttaggcgcctgagcacgccc ggct----------------
+Trichia_alpina_ON713364 gttcgtggactgatttgtct ggtctattccgctaacgagc gagaacccaccctctcgtgg ttaggcgcccgggcatgcct gggc----------------
+Trichia_alpina_JX481312 gttcgtggactgatttgtct ggtctattccgctaacgagc gagaacccaccctctcgtgg ttaggcgcctgggcatgcct gggc----------------
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 gttcgtggactgatttgtct ggtctattccgctaacgagc gagaacccgccttc-cgtgg ttaggcagcgaggcacgcct gggccc------------ag
+Perichaena_depressa_JX481307 gttcgtggattgatttgtct ggtctattccgttaacgagc gagaacctactcta-cgatg ttgggcccttgggcaaggat ggg-----------------
+Perichaena_luteola_JX481308 gttcgtggattgatttgtct ggtctattccgataacgagc gagaacctactcaa-cgatg ttgggcccttgggctagcct gggt----------------
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 gttcgtggagtgatttgtct ggtctattccgctaacgagc gagaacctacttttccgtgg ttaggcccggctgctcaacc tcgtgacc-----gactcct
+Arcyria_cinerea_JX481281 gttcgtggattgatttgtct ggtctattccgctaacgagc gagaacccgccctcaggatg ttgcccagttcaccgtgtgt caggctg-------------
+Hemitrichia_abietina_JX481293 gttcgtggagtgatttgtct ggtctattccgctaacgagc gagaacccagccttccgtgg ttagggcaaggacaatgggg ctgccctcccggtgtctccc
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 --ggcctcggttag------ -------------------- --ctgggctgaaaacgctcc tgggc-------tcgatccg gagggaccgtcttcgataag
+Trichia_alpina_ON713364 ----tccccgcaaggg---- ------------------gg gcccgggctgaaaacgcccc tgagc-------tcggtccg gagggaccggccccgttaag
+Trichia_alpina_JX481312 ----ccctcgcaaggg---- ------------------gg gcccgggctgaaaacgcccc tgagc-------tcgctccg gagggaccggccccgttaag
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 cccgcccccgcaagtggga- -------------gggcagg gctcgggctgagaacgcctc gaggc-------tcggtccg ggaggagcgcgtccgacaag
+Perichaena_depressa_JX481307 -----acccgcaag------ ------------------gg atccgttc--atgcagcccc tgggc-acccttacaagctg gcgagatcggtaccgacaag
+Perichaena_luteola_JX481308 -----cccctcgcg------ ------------------gg acctgggc--gtcgtgcccc tgggcgattttttcagactg gcgagatcggttccgataag
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 ctagcttcggtgggggggat -------------aggcggc ccgccgagcatcaaggcagc tgggt-------tcgatccg ggagtaccggccccgacaag
+Arcyria_cinerea_JX481281 -atgcctcaaggagtgaaat cccccccgtgggacggaacg aattgggctggccgggtact gtaggtgg----------cg aaaggggcctgctgggcaac
+Hemitrichia_abietina_JX481293 ctcgtctcgggctgggcaac cggcctggggtggggggggg tgcttgggcggccttgttcc ggcgcca-----tcgatccg ggggcaccagcttcgttaag
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 gtgatggcag---------- cgggtcaataacaggtcagt gatgcccttagatgctctag gccgcacgcgcgctacaatg cagcgagtagcgggctc-cc
+Trichia_alpina_ON713364 gtgccggcag---------- cgggtcaataacaggtcagt gatgcccttagatgctctag gccgcacgcgcgctacaatg gggcaaaaaccgggctctcc
+Trichia_alpina_JX481312 gtgccggcag---------- cgggtcaataacaggtcagt gatgcccttagatgctctag gccgcacgcgcgctacaatg gggcaagtaccgggctctcc
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 ggcgcggcag---------- cgggtcaataacaggtcagt gatgcccttagatgctctag gctgcacgcgcgctacaatg cggtggcctccgggtc--cc
+Perichaena_depressa_JX481307 gtgccggaag---------- atggtcaataacaggtcagt gatgcccttagatgctcttg gctgcacgcgcgctacaatg ggggcggcaacgggtttgtc
+Perichaena_luteola_JX481308 gtgccggaag---------- atggtcaataacaggtcagt gatgcccttagatgctcttg gctgcacgcgcgctacaatg gggggggcaacgggttagcc
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 gggccggaag---------- caggtcaataacaggtcagt gatgcccttagatgctctgg gccgcacgcgcgctacaatg gggcgaatagagggtc-gcc
+Arcyria_cinerea_JX481281 cggtcgacaaggtcggtttt tgggtcaataacaggtcagt gatgcccttagatgctctcg gctgcacgcgcgctacaatg gcggggccaccgggtt--tc
+Hemitrichia_abietina_JX481293 gggctggagg---------- cgggtcaataacaggtcagt gatgcccttagatgctctgg gccgcacgcgcgctacaatg gggtgagtagcgggttcacc
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 tgtgcctaacggcggcgggg aatccg-cgaaagccctgcg tatccgggatagcgccgtgt aactcggcgctcaaacaagg aatttctagtagtcataggt
+Trichia_alpina_ON713364 tgtgccgaaaggcggcgggg aatccg-caaaagtgccccg tatccgggacagcgccgtgt aactcggcgctcgaacaagg aatttctagtagtcatg---
+Trichia_alpina_JX481312 tgtgccgaaaggcggcgggg aatccg-cgaaagtgccccg tatccgggacagcgccgtgt aactcggcgctcgaacaagg aatttctagtagtcatgggt
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 tgtgccttgaggcaacgggg aatccg--gaacgcgccccg tatcagggccagtgccgtgc aacacggccctcaaacaagg aatttctagtagtcatgggt
+Perichaena_depressa_JX481307 tgcgccgaaaggcggcgggt aatcctccgaaaccccccca tatcagggactgcgccgtgt aaagcggcgcacaaacaagg aatttctagtagtcgcgcgt
+Perichaena_luteola_JX481308 tgcgcctaaaggtggcgggt aatccttcgaaacccccccg tatcagggactgcaccgtgt aaatcggtgcacaaacgagg aatttctagtagtcacgggt
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 tgtgccgagaggcggcgggt aatcct-tgaaaacgccccc cgtctgggataggggcgtga aactcgccccttgaaccagg aatttctagtaggtatgggt
+Arcyria_cinerea_JX481281 agcccctcacgggtgcggaa aatcctcttaaaacccgtcc catccgggaccatggcatgt aatgtgctttgcgaacacgg aatttctagtattcatggtt
+Hemitrichia_abietina_JX481293 tgtgccgaagggcggcgggt aatcct-cgaaagcccccca tatccgggatagggacgtgt aactcgcccctccaacaagg aatttctagtagtcatgggt
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 caccagcctatgacgattc- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_ON713364 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_JX481312 caccagcccgtgacgattct gtccctgctctttgtacaca ccgcccgtcgctcctaccga ttgggctgcgaggtgagttg acaggaccgg----------
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 caccagcccgtgacgattcg gtccctgctctttgtacaca ccgcccgtcgctcctaccga ttgggctacggggtgagttg cccggagac--------cgc
+Perichaena_depressa_JX481307 cactagcgcgtgacgattgc gtccctgctctttgtacaca ccgcccgtcgctcctaccga ttggattgcgaggtgagctg ccggga--------------
+Perichaena_luteola_JX481308 caccagcccgtgacgattgc gtccctgctctttgtacaca ccgcccgtcgctcctaccga ttggattgcgaggtgagccg ctagga--------------
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 caccaccccgtgccgattct gtccctgctgtttgtacaca ccgcccgtcgctcctaccga ttgagccccgtggtgaagcg ggtggatca--------tca
+Arcyria_cinerea_JX481281 cactagaccatggcgattct gtccctgctctttgtacaca ccgcccgtcgctcctaccga ttgggctggggggtgagatt ggaggactcaaacataggca
+Hemitrichia_abietina_JX481293 caccagcccgt--------- -------------------- -------------------- -------------------- --------------------
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -------------------- -------------------- -------------------- --------------------
+Perichaena_sp_KP241122 -------------------- -------------------- -------------------- -------------------- --------------------
+Hemitrichia_pardina_ON713362 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_ON713364 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_alpina_JX481312 -------------------- ------tgccggggcaaccc ggggct-----gtaatgtag gcaaaccctgtggcctagag gaaggagaagtcgtaacaag
+Trichia_cf_contorta_KT358720 -------------------- -------------------- -------------------- -------------------- --------------------
+GC525                -------------------- -------------------- -------------------- -------------------- --------------------
+Metatrichia_vesparium_JX481303 gcaccccgcac----ggggt gctgcccacttgatgggcag cgggc-------gaagggag gcgaacctcgcggcctagag gaaggagaagtcgtaacaag
+Perichaena_depressa_JX481307 -------------------- -------gccccgcttaccc ggggc-------gaacggac gcaaacctcacggtctagag gaaggagaagtcgtaacaag
+Perichaena_luteola_JX481308 -------------------- ------cgcgcggtaaatgt gaggg-------aaatggat gcgaacctcacggtttagag gaaggagaagtcgtaacaag
+Trichia_varia_KM495056 -------------------- -------------------- -------------------- -------------------- --------------------
+Trichia_decipiens_JX481313 acccctcatacccctagatc gtgtgttcgctgcgctgggg ggagagtggggagaagcccg atgaaccttggggtttagag gaaggagaagtcgtaacaag
+Arcyria_cinerea_JX481281 gcccccctgtggcctggtgc gcttgcgagccacctttagc cttga-------caatctcg tcgaaccttttggtctagag gaaggagaagtc--------
+Hemitrichia_abietina_JX481293 -------------------- -------------------- -------------------- -------------------- --------------------
+Arcyria_denudata_OQ658969 -------------------- -------------------- -------------------- -------------------- --------------------
+
+Tubifera_ferruginosa_KM401876 -------------------- -
+Perichaena_sp_KP241122 -------------------- -
+Hemitrichia_pardina_ON713362 -------------------- -
+Trichia_alpina_ON713364 -------------------- -
+Trichia_alpina_JX481312 gtatccgtagg--------- -
+Trichia_cf_contorta_KT358720 -------------------- -
+GC525                -------------------- -
+Metatrichia_vesparium_JX481303 gtatccgtaggtgaacctg- -
+Perichaena_depressa_JX481307 gtatccgtagg--------- -
+Perichaena_luteola_JX481308 gtatccgtaggtgaacctgc a
+Trichia_varia_KM495056 -------------------- -
+Trichia_decipiens_JX481313 gtatccgtaggtgaacctgc a
+Arcyria_cinerea_JX481281 -------------------- -
+Hemitrichia_abietina_JX481293 -------------------- -
+Arcyria_denudata_OQ658969 -------------------- -
+
+
+
+
+
+;
+outgroup Tubifera_ferruginosa_KM401876;
+
+
+begin mrbayes;
+Lset nst=6 rates=invgamma;
+Prset statefreqpr=Dirichlet(1.0,1.0,1.0,1.0);
+Mcmcp
+ngen=5000000
+samplefreq=100
+filename=LS_phylo_output
+;
+mcmc;
+sump;
+sumt;
+END;
+
+
+
+
+
