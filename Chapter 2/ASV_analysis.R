@@ -450,11 +450,21 @@ s_shannon <- shannon_mean[vegtype == "S"]
 shannon_list <- c(n_shannon, s_shannon, p_shannon) #FIX THIs
 shannon_avg<- c(mean(n_shannon), mean(s_shannon), mean(p_shannon))
 
-shannon_se <- c(sd(n_shannon)/sqrt(nrow(resM_fin)), sd(s_shannon)/sqrt(nrow(resM_fin)), sd(p_shannon)/sqrt(nrow(resM_fin)))
+sitelist <- names(shannon_list)
+sitelist <- gsub("GC...", "", sitelist)
+shan_aov_df <- data.frame(shannon_list, sitelist)
+colnames(shan_aov_df) <- c("EffectiveDiversity", "Vegetation")
+shan_aov <- aov(EffectiveDiversity ~ Vegetation, data = shan_aov_df)
+summary(shan_aov)
+TukeyHSD(shan_aov)
+shannon_avg
+summary(lm(shan_aov))
 
-#pdf(file = "Mean Shannon Diversity plot.pdf")
+shannon_se <-c(23.802, 33.661, 33.661)
 
-shannon_barplot <- barplot(shannon_avg, main = "Effective diversity of each vegetation type", names = Veges, ylab = "Effective OTU Diversity", ylim = c(0,500), col = "white", cex.names = 1.5)
+pdf(file = "ASV Mean Effective Diversity plot.pdf")
+
+shannon_barplot <- barplot(shannon_avg, main = "Effective diversity of each vegetation type", names = Veges, ylab = "Effective ASV Diversity", ylim = c(0,500), col = "white", cex.names = 1.5)
 arrows(x0 = shannon_barplot,
        y0 = shannon_avg + shannon_se,
        y1 =shannon_avg - shannon_se,
@@ -463,15 +473,9 @@ points(x = lapply(rep(shannon_barplot, each=11), jitter, amount=0.05),
        y = shannon_list,
        col = "black", pch=21)
 
-#dev.off()
+dev.off()
 
-sitelist <- names(shannon_list)
-sitelist <- gsub("GC...", "", sitelist)
-shan_aov_df <- data.frame(shannon_list, sitelist)
-colnames(shan_aov_df) <- c("EffectiveDiversity", "Vegetation")
-shan_aov <- aov(EffectiveDiversity ~ Vegetation, data = shan_aov_df)
-summary(shan_aov)
-TukeyHSD(shan_aov)
+
 
 
 
@@ -486,19 +490,8 @@ s_rich_mean <- mean(richness[vegtype == "S"])
 
 rich_list <- c(rich(resM_rare[nothosites,]), rich(resM_rare[shrubsites, ]), rich(resM_rare[pinesites,]))
 mean_rich <- c(n_rich_mean, s_rich_mean, p_rich_mean)
-rich_se <- c(sd(richness[vegtype == "N"])/sqrt(nrow(resM_fin)), sd(richness[vegtype == "S"])/sqrt(nrow(resM_fin)), sd(richness[vegtype == "P"])/sqrt(nrow(resM_fin)))
 
-#pdf(file = "Mean Richness plot.pdf")
 
-rich_barplot <- barplot(mean_rich, names.arg = Veges, ylab = "Rarefied OTU Richness", main = "Rarefied richness of each vegetation type", ylim = c(0,1000), col = "white", cex.names =1.5)
-arrows(x0 = rich_barplot,
-       y0 = mean_rich + rich_se,
-       y1 = mean_rich - rich_se,
-       angle = 90, code = 3, length = 0.1)
-points(x = lapply(rep(rich_barplot, each=11), jitter, amount=0.05),
-       y = rich_list,
-       col = "black", pch=21)
-#dev.off()
 
 sitelist <- names(rich_list)
 sitelist <- gsub("GC...", "", sitelist)
@@ -507,12 +500,30 @@ colnames(rich_aov_df) <- c("Richness", "Vegetation")
 rich_aov <- aov(Richness ~ Vegetation, data = rich_aov_df)
 summary(rich_aov)
 TukeyHSD(rich_aov)
+summary(lm(rich_aov))
+
+mean_rich
+rich_se <- c(43.45, 61.45, 61.45)
+
+pdf(file = "ASV Mean Richness plot.pdf")
+
+rich_barplot <- barplot(mean_rich, names.arg = Veges, ylab = "Rarefied ASV Richness", main = "Rarefied richness of each vegetation type", ylim = c(0,1000), col = "white", cex.names =1.5)
+arrows(x0 = rich_barplot,
+       y0 = mean_rich + rich_se,
+       y1 = mean_rich - rich_se,
+       angle = 90, code = 3, length = 0.1)
+points(x = lapply(rep(rich_barplot, each=11), jitter, amount=0.05),
+       y = rich_list,
+       col = "black", pch=21)
+dev.off()
+
+
 
 
 
 #beta diversity
 #beta_dist <- vegdist(resM_fin, method = "jaccard")
-beta_dist2 <- raupcrick(resM_fin[1:32,], nsimul = 100) # TO DO: should be at least 99, read chase paper (if still relevant)
+beta_dist2 <- raupcrick(resM_fin, nsimul = 100) # TO DO: should be at least 99, read chase paper (if still relevant)
 #Raup Crick makes a dissimilarity matrix that is less impacted by differences in alpha diversity (which my data is very effected by) when compared to other distances measurements. 
 
 #Removing site 33 does make the raup crick work and repeat the best solution. 
@@ -526,9 +537,9 @@ beta_mds <- metaMDS(beta_dist2, k =2, trymax = 1000)
 
 mds_data <- as.data.frame(beta_mds$points)
 
-#pdf(file = "raupcrick_beta_diversity.pdf")
+#pdf(file = "ASV raupcrick_beta_diversity.pdf")
 
-plot(mds_data, main = "Beta Diversity of the Three Vegetation Types")
+plot(mds_data, main = "Community dissimilarity of the three vegetation types")
 
 vegtype_MDS <- substr(rownames(beta_mds$points),6,6)
 vegtype_MDS <- factor(vegtype_MDS, levels = c("N", "S", "P"))
@@ -538,15 +549,15 @@ vegtype_MDS <- factor(vegtype_MDS, levels = c("N", "S", "P"))
 ordihull(beta_mds, vegtype_MDS, col = vegcol, lwd = 3)
 #ordiellipse(beta_mds, vegtype_MDS, col = vegcol)
 points(beta_mds$points, bg = vegcol[as.factor(vegtype_MDS)], pch = vegpch[as.factor(vegtype_MDS)])
-legend(-1.45,0.55, legend = Veges, col = vegcol, pch = vegpch, cex = 1.4, pt.bg = vegcol)
+legend(-1.5,-0.255, legend = Veges, col = vegcol, pch = vegpch, cex = 1.4, pt.bg = vegcol)
 
 #ordispider(beta_mds, substr(rownames(beta_mds$points),6,6))
-orditorp(beta_mds,display="sites",cex=0.5,air=0.01)
+#orditorp(beta_mds,display="sites",cex=0.5,air=0.01)
 
-#FIX COLOURS, colourblind????
+
 
 #dev.off()
-
+beta_mds
 stressplot(beta_mds)
 
 beta_disp <- betadisper(beta_dist2, substr(rownames(beta_mds$points),6,6))
@@ -573,17 +584,17 @@ par(mar=c(0,1,0,0))
 par(mai=c(1,0.5,1,0))
 
 barplot(colSums(resM_dom[nothosites,bar_order])/11, main = "Beech", log = "x", offset = 0.1, ylab = "Operational Taxonomic Units (OTUs)",
-        horiz = TRUE, col = otus_fin$colour[match(colnames(resM_dom[nothosites,bar_order]),otus_fin$otu)], border = NA,
+        horiz = TRUE, col = otus_fin$colour[match(colnames(resM_dom[nothosites,bar_order]),otus_fin$ASV_ID)], border = NA,
         cex.names = 2, names.arg = "")
 
 
 
 barplot(colSums(resM_dom[shrubsites,bar_order])/11, main = "Shrubland", log = "x", offset = 0.1, xlab = "Dominance (%)",
-        horiz = TRUE, col = otus_fin$colour[match(colnames(resM_dom[nothosites,bar_order],),otus_fin$otu)], border = NA,
+        horiz = TRUE, col = otus_fin$colour[match(colnames(resM_dom[nothosites,bar_order],),otus_fin$ASV_ID)], border = NA,
         names.arg = "")
 
 barplot(colSums(resM_dom[pinesites,bar_order])/11, main = "Pine", log = "x", offset = 0.1, xlab = "",
-        horiz = TRUE, col = otus_fin$colour[match(colnames(resM_dom[nothosites,bar_order]),otus_fin$otu)], border = NA, 
+        horiz = TRUE, col = otus_fin$colour[match(colnames(resM_dom[nothosites,bar_order]),otus_fin$ASV_ID)], border = NA, 
         names.arg = "") 
 
 
