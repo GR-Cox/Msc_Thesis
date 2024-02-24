@@ -536,7 +536,17 @@ shannon_avg<- c(mean(n_shannon), mean(s_shannon), mean(p_shannon))
 
 hist(shannon) #Looks reasonably normal
 
-shannon_se <- c(sd(n_shannon)/sqrt(11), sd(s_shannon)/sqrt(11), sd(p_shannon)/sqrt(11))
+sitelist <- names(shannon_list)
+sitelist <- gsub("GC...", "", sitelist)
+shan_aov_df <- data.frame(shannon_list, sitelist)
+colnames(shan_aov_df) <- c("EffectiveDiversity", "Vegetation")
+shan_aov <- aov(EffectiveDiversity ~ Vegetation, data = shan_aov_df)
+summary(shan_aov)
+TukeyHSD(shan_aov)
+summary(lm(shan_aov))
+
+
+shannon_se <- c(12.789, 18.086, 18.086) #Standard errors taken from the 
 
 #pdf(file = "Mean Shannon Diversity plot.pdf")
 
@@ -551,13 +561,7 @@ points(x = lapply(rep(shannon_barplot, each=11), jitter, amount=0.05),
 
 #dev.off()
 
-sitelist <- names(shannon_list)
-sitelist <- gsub("GC...", "", sitelist)
-shan_aov_df <- data.frame(shannon_list, sitelist)
-colnames(shan_aov_df) <- c("EffectiveDiversity", "Vegetation")
-shan_aov <- aov(EffectiveDiversity ~ Vegetation, data = shan_aov_df)
-summary(shan_aov)
-TukeyHSD(shan_aov)
+
 
 
 
@@ -572,10 +576,21 @@ s_rich_mean <- mean(richness[vegtype == "S"])
 
 rich_list <- c(rich(resM_rare[nothosites,]), rich(resM_rare[shrubsites, ]), rich(resM_rare[pinesites,]))
 mean_rich <- c(n_rich_mean, s_rich_mean, p_rich_mean)
-rich_se <- c(sd(richness[vegtype == "N"])/sqrt(11), sd(richness[vegtype == "S"])/sqrt(11), sd(richness[vegtype == "P"])/sqrt(11))
 hist(richness) #Looks reasonably normal
 
-#pdf(file = "Mean Richness plot.pdf")
+
+sitelist <- names(rich_list)
+sitelist <- gsub("GC...", "", sitelist)
+rich_aov_df <- data.frame(rich_list, sitelist)
+colnames(rich_aov_df) <- c("Richness", "Vegetation")
+rich_aov <- aov(Richness ~ Vegetation, data = rich_aov_df)
+summary(rich_aov)
+TukeyHSD(rich_aov)
+
+summary(lm(rich_aov))
+rich_se <- c(43.45, 61.45, 61.45)
+
+pdf(file = "Mean Richness plot.pdf")
 
 rich_barplot <- barplot(mean_rich, names.arg = Veges, ylab = "Rarefied OTU Richness", main = "Rarefied richness of each vegetation type", ylim = c(0,1000), col = "white", cex.names =1.5)
 arrows(x0 = rich_barplot,
@@ -585,15 +600,8 @@ arrows(x0 = rich_barplot,
 points(x = lapply(rep(rich_barplot, each=11), jitter, amount=0.05),
        y = rich_list,
        col = "black", pch=21)
-#dev.off()
+dev.off()
 
-sitelist <- names(rich_list)
-sitelist <- gsub("GC...", "", sitelist)
-rich_aov_df <- data.frame(rich_list, sitelist)
-colnames(rich_aov_df) <- c("Richness", "Vegetation")
-rich_aov <- aov(Richness ~ Vegetation, data = rich_aov_df)
-summary(rich_aov)
-TukeyHSD(rich_aov)
 
 
 
